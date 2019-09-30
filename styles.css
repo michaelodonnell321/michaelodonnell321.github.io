@@ -67,3 +67,17 @@ header {
     height: 700px;
     border-radius: 50px;
 }
+
+.footerText {
+    size: 20px;
+    margin-left: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+#travelEatsDiv:hover {
+    background-color: white;
+    transition: .3s;
+    border-radius: 50px;
+    width: fit-content;
+}
