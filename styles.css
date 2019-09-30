@@ -1,7 +1,63 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body {
     background-image: url('./photos/irish-background.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.logos {
+    height: 40px;
+    margin: 5px;
+    border: 5px;
+    background-color: white;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.logoSpan:hover {
+    background-color: white;
+    transition: .3s;
+    border-radius: 50px;
+}
+
+header {
+    margin-left: 20px;
+    color: white;
+}
+
+#headerText {
+    display: flex;
+    font-size: 50px;
+}
+#titleText {
+    display: flex;
+    font-size: 20px;
+}
+
+#headshot {
+    border-radius: 50px;
+}
+
+#logosDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+#mainText {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+#headerTextDiv {
+    width: fit-content;
 }
