@@ -51,7 +51,7 @@ header {
     width: fit-content;
 }
 
-#mainText {
+.mainText {
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -60,4 +60,10 @@ header {
 
 #headerTextDiv {
     width: fit-content;
+}
+
+#screenshot {
+    margin: 20px;
+    height: 700px;
+    border-radius: 50px;
 }
