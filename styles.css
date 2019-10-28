@@ -62,7 +62,7 @@ header {
     width: fit-content;
 }
 
-#screenshot {
+.screenshot {
     margin: 20px;
     height: 700px;
     border-radius: 50px;
@@ -75,7 +75,7 @@ header {
     margin-top: 20px;
 }
 
-#travelEatsDiv:hover {
+.screenshotDiv:hover {
     background-color: white;
     transition: .3s;
     border-radius: 50px;
